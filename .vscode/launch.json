@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Practice03_1",
+            "request": "launch",
+            "mainClass": "practice.Practice03_1",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice03",
+            "request": "launch",
+            "mainClass": "practice.Practice03",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice02_2",
+            "request": "launch",
+            "mainClass": "practice.Practice02_2",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice02_1",
+            "request": "launch",
+            "mainClass": "practice.Practice02_1",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice02",
+            "request": "launch",
+            "mainClass": "practice.Practice02",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice01",
+            "request": "launch",
+            "mainClass": "practice.Practice01",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
