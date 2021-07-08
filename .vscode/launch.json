@@ -6,6 +6,125 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Practice04",
+            "request": "launch",
+            "mainClass": "practice.array.Practice04",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice03",
+            "request": "launch",
+            "mainClass": "practice.array.Practice03",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice02_1",
+            "request": "launch",
+            "mainClass": "practice.array.Practice02_1",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice02",
+            "request": "launch",
+            "mainClass": "practice.array.Practice02",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice13",
+            "request": "launch",
+            "mainClass": "practice.array.Practice13",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice12",
+            "request": "launch",
+            "mainClass": "practice.Practice12",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice11",
+            "request": "launch",
+            "mainClass": "practice.Practice11",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice10",
+            "request": "launch",
+            "mainClass": "practice.Practice10",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice09_2",
+            "request": "launch",
+            "mainClass": "practice.Practice09_2",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice09",
+            "request": "launch",
+            "mainClass": "practice.Practice09",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice08",
+            "request": "launch",
+            "mainClass": "practice.Practice08",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice07_1",
+            "request": "launch",
+            "mainClass": "practice.Practice07_1",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice07",
+            "request": "launch",
+            "mainClass": "practice.Practice07",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice06",
+            "request": "launch",
+            "mainClass": "practice.Practice06",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice05",
+            "request": "launch",
+            "mainClass": "practice.Practice05",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice04_1",
+            "request": "launch",
+            "mainClass": "practice.Practice04_1",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice04",
+            "request": "launch",
+            "mainClass": "practice.Practice04",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
             "name": "Launch Practice03_1",
             "request": "launch",
             "mainClass": "practice.Practice03_1",

@@ -8,7 +8,7 @@
 
 // 다른 해답 (1)
 // substring()과 indexOf() 이용
-package practice;
+package practice.string;
 
 import java.util.Scanner;
 

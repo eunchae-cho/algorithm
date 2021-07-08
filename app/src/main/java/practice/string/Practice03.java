@@ -6,7 +6,7 @@
 // 가장 길이가 긴 단어가 여러개일 경우 문장속에서 가장 앞쪽에 위치한
 // 단어를 답으로 합니다.
 
-package practice;
+package practice.string;
 
 import java.util.Scanner;
 
