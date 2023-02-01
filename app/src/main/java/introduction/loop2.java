@@ -1,9 +1,8 @@
 package introduction;
 
 import java.util.Scanner;
-// 거듭제곱 활용
 public class loop2 {
-    private static void calcualte(int a, int b, int n) {
+    private static void calculate(int a, int b, int n) {
         int sum = a;
         for (int i = 0; i < n; i++) {
             sum += Math.pow(2,i) * b;
@@ -20,7 +19,7 @@ public class loop2 {
             int a = in.nextInt();
             int b = in.nextInt();
             int n = in.nextInt();
-            calcualte(a, b, n);
+            calculate(a, b, n);
         }
         in.close();
     }
