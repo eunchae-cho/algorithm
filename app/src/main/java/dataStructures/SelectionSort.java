@@ -11,13 +11,13 @@ public class SelectionSort {
         int[] arr = new int[n];
 
         for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();    
+            arr[i] = sc.nextInt();
         }
 
-        for(int i = 0; i < n - 1; i++) {
+        for (int i = 0; i < n - 1; i++) {
             int idx = i;
             for (int j = i + 1; j < n; j++) {
-                if (arr[i] > arr[j]) {
+                if (arr[idx] > arr[j]) {
                     idx = j;
                 }
             }
@@ -25,10 +25,9 @@ public class SelectionSort {
             arr[i] = arr[idx];
             arr[idx] = tmp;
 
-
             System.out.printf("%d ", arr[i]);
         }
-        
+
         sc.close();
     }
 }
