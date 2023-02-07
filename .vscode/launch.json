@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Practice06",
+            "request": "launch",
+            "mainClass": "practice.searching.Practice06",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
             "name": "Launch Practice04",
             "request": "launch",
             "mainClass": "practice.array.Practice04",
