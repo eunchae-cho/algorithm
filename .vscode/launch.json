@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Practice09",
+            "request": "launch",
+            "mainClass": "practice.searching.Practice09",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice08",
+            "request": "launch",
+            "mainClass": "practice.searching.Practice08",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice07",
+            "request": "launch",
+            "mainClass": "practice.searching.Practice07",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
             "name": "Launch Practice06",
             "request": "launch",
             "mainClass": "practice.searching.Practice06",
