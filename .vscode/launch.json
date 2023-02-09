@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Practice06",
+            "request": "launch",
+            "mainClass": "practice.dfs.Practice06",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice05",
+            "request": "launch",
+            "mainClass": "practice.dfs.Practice05",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice04",
+            "request": "launch",
+            "mainClass": "practice.dfs.Practice04",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice03",
+            "request": "launch",
+            "mainClass": "practice.dfs.Practice03",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice02",
+            "request": "launch",
+            "mainClass": "practice.dfs.Practice02",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice01",
+            "request": "launch",
+            "mainClass": "practice.dfs.Practice01",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
             "name": "Launch Practice09",
             "request": "launch",
             "mainClass": "practice.searching.Practice09",
