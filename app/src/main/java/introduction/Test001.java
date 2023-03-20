@@ -2,22 +2,23 @@ package introduction;
 
 public class Test001 {
     public static void main(String[] args) {
-        int answer = 1, k = 1, n = 3628800;
+        int i = 10, j = 50, k = 5;
+        int answer = 0, tmp = i;
 
-        while (answer <= n) {
-            answer *= k;
-
-            // System.out.println(answer + " *= " + k);
-
-            if (answer > n) {
-                k -= 1;
-                break;
-            } else {
-                k++;
+        while (i != j + 1) {
+            if (tmp % 10 == k) {
+                answer++;
             }
+
+            tmp /= 10;
+
+            if (tmp == 0) {
+                tmp = ++i;
+            }
+
         }
 
-        System.out.println(110 / 10);
+        System.out.println(answer);
 
     }
 }
