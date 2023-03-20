@@ -4,10 +4,12 @@ import java.util.Arrays;
 
 public class Practice15 {
     public static void main(String[] args) {
-        char[] arr = { 'b', 'c', 'a' };
-        Arrays.sort(arr);
-        for (char c : arr) {
-            System.out.print(c + " ");
+        String[] str = { "xyz", "foo", "of" };
+
+        for (String s : str) {
+            char[] ch = s.toCharArray();
+            int lt = 0;
+
         }
     }
 }
