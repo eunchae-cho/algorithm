@@ -1,11 +1,12 @@
 package practice.programers;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * 2024 kakao winter intership 가장 많이 받은 선물
  * */
-public class Solution {
+public class Solution001 {
     public int solution(String[] friends, String[] gifts) {
         int answer = 0;
 
@@ -76,7 +77,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        new Solution().solution(
+        new Solution001().solution(
                 new String[]{"muzi", "ryan", "frodo", "neo"},
         new String[]{"muzi frodo", "muzi frodo", "ryan muzi", "ryan muzi", "ryan muzi", "frodo muzi", "frodo ryan", "neo muzi"}
         );
