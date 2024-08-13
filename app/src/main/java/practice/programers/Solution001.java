@@ -23,24 +23,34 @@ public class Solution001 {
             String[] fromToArr = gifts[i].split(" ");
             giftArr[friendsList.indexOf(fromToArr[0])][friendsList.indexOf(fromToArr[1])] += 1;
         }
+        System.out.println(Arrays.deepToString(giftArr));
 
         // 선물 지수 목록 만들기
         Integer[][] giftScoreArr = new Integer[friends.length][3];
 
+        // 준 선물 계산
         for (int i = 0; i < giftArr.length; i++) {
-            int toTotal = 0;
-            int fromTotal = 0;
+            int total = 0;
             for (int j = 0; j < giftArr[i].length; j++) {
-                toTotal += giftArr[i][j];
-                fromTotal += giftArr[j][i];
+                total += giftArr[i][j];
             }
-            // 준 선물 계산
-            giftScoreArr[i][0] = toTotal;
-            // 받은 선물 계산
-            giftScoreArr[i][1] = fromTotal;
-            // 선물 지수 계산
-            giftScoreArr[i][2] = toTotal - fromTotal;
+            giftScoreArr[i][0] = total;
         }
+
+        // 받은 선물 계산
+        for (int i = 0; i < giftArr.length; i++) {
+            int total = 0;
+            for (int j = 0; j < giftArr[i].length; j++) {
+                total += giftArr[j][i];
+            }
+            giftScoreArr[i][1] = total;
+        }
+
+        // 선물 지수 계산
+        for (int i = 0; i < giftScoreArr.length; i++) {
+            giftScoreArr[i][2] = giftScoreArr[i][0] - giftScoreArr[i][1];
+        }
+        System.out.println(Arrays.deepToString(giftScoreArr));
 
         // 다음 달 선물 수 배열
         int[] answerArr = new int[friends.length];
@@ -61,13 +71,15 @@ public class Solution001 {
                 }
 
                 if ((giftArr[i][j] == 0 &&  giftArr[j][i] == 0) || giftArr[i][j] == giftArr[j][i]) {
-                    if (giftScoreArr[i][2] != giftScoreArr[j][2]) {
+                    if (i < j) {
+                        System.out.println("i = " + i + ", j = " + j);
                         if (giftScoreArr[i][2] < giftScoreArr[j][2]) {
                             answerArr[i]++;
-                        } else {
+                        } else if (giftScoreArr[i][2] > giftScoreArr[j][2]) {
                             answerArr[j]++;
                         }
                     }
+
                 }
             }
         }
@@ -77,9 +89,14 @@ public class Solution001 {
     }
 
     public static void main(String[] args) {
+//        new Solution001().solution(
+//                new String[]{"muzi", "ryan", "frodo", "neo"},
+//        new String[]{"muzi frodo", "muzi frodo", "ryan muzi", "ryan muzi", "ryan muzi", "frodo muzi", "frodo ryan", "neo muzi"}
+//        );
+
         new Solution001().solution(
-                new String[]{"muzi", "ryan", "frodo", "neo"},
-        new String[]{"muzi frodo", "muzi frodo", "ryan muzi", "ryan muzi", "ryan muzi", "frodo muzi", "frodo ryan", "neo muzi"}
+                new String[]{"a", "b", "c"},
+                new String[]{"b a"}
         );
     }
 }
