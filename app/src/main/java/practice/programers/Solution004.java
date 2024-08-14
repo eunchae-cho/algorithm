@@ -1,12 +1,9 @@
 package practice.programers;
 
-import java.sql.Array;
-import java.util.*;
-
 /**
  * 공원 산책
  * */
-public class Solution {
+public class Solution004 {
     public int[] solution(String[] park, String[] routes) {
         int h = park.length;
         int w = park[0].length();
@@ -62,7 +59,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        new Solution().solution(new String[]{"OSO", "OOO", "OXO", "OOO"}, new String[]{"E 2", "S 3", "W 1"});
+        new Solution004().solution(new String[]{"OSO", "OOO", "OXO", "OOO"}, new String[]{"E 2", "S 3", "W 1"});
     }
 }
 
